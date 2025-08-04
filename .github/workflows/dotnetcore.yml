@@ -4,6 +4,15 @@ name: eShopOnWeb Build and Test
 on: [push, pull_request, workflow_dispatch]
 
 jobs:
+  dependency-review:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request'
+    steps:
+      - name: 'Checkout Repository'
+        uses: actions/checkout@v4
+      - name: 'Dependency Review'
+        uses: actions/dependency-review-action@v4
+
   build:
 
     runs-on: ubuntu-latest
