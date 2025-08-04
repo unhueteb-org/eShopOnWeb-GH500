@@ -1,0 +1,13 @@
+---
+sourceLocationPrefix: /workspaces/eShopOnWeb-GH500
+baselineLinesOfCode: 8697
+unicodeNewlines: false
+columnKind: utf16
+primaryLanguage: csharp
+creationMetadata:
+  sha: 4de50adc9f1dad582a9e36736221e38853fc8b05
+  cliVersion: 2.22.2
+  creationTime: 2025-08-04T20:47:23.543496401Z
+overlayBaseDatabase: false
+overlayDatabase: false
+finalised: true
