@@ -7,7 +7,7 @@
 #
 # RUN COMMAND
 #  docker run --name eshopweb --rm -it -p 5106:5106 web
-FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build
 WORKDIR /app
 
 COPY *.sln .
