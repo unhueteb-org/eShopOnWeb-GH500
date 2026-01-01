@@ -16,6 +16,7 @@
 		<ProjectReference Include="..\ApplicationCore\ApplicationCore.csproj" />
 	</ItemGroup>
 	<ItemGroup>
+  	<PackageReference Include="Microsoft.Identity.Client" />
 		<Folder Include="Data\Migrations\" />
 	</ItemGroup>
 </Project>
